@@ -1,0 +1,52 @@
+
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+
+lib/
+
+bin/
+
+# Diretórios de compilação
+target/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Gradle
+.gradle/
+.gradle-cache/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente e configurações sensíveis
+.env
+.env.*
+!.env.example

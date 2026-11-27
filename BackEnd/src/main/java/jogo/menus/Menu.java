@@ -9,12 +9,8 @@ public abstract class Menu {
         
     }
 
-    public Menu(String menu, String opcoes) {
-        this.menu = menu;
-        this.opcoes = opcoes;
-    }
-
     public abstract void criarMenu();
+    public abstract void chamarMenu();
 
     public String getMenu() {
         return menu;

@@ -1,4 +1,4 @@
-package Personagem;
+package personagens.base;
 
 public abstract class PersonagemBase {
     private String nome;
@@ -22,10 +22,17 @@ public abstract class PersonagemBase {
         this.vida = vida;
         this.ataque = ataque;
         this.defesa = defesa;
-
+        
         setNivel(nivel);
 
         this.nivel = getNivel();
+    }
+
+    public void atacar() {
+
+        if (this.ataque > this.defesa) {
+            setVida((this.ataque - this.defesa) - this.vida);
+        } 
     }
 
     public String getNome() {
